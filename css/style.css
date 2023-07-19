@@ -299,7 +299,8 @@ ol {
 }
 
 .test img {
-    width: 100%;
+	width: 100%;
+	border-radius: 16px;
 }
 
 .onlinegames_items:hover .overly {
@@ -322,7 +323,7 @@ ol {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 99%;
+    height: 99.5%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 16px;
     -webkit-border-radius: 16px;
