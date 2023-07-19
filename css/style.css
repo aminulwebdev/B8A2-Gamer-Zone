@@ -350,11 +350,74 @@ ol {
 
 
 /* ==================================
-            Navbar part start
+        Games categories part start
 ====================================== */
+.games_categories{
+    background: #fff9fc ;
+    margin-top: 230px;
+    padding: 130px 0; 
+}
+
+
+.categories_container{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    /* padding: 130px 0; */
+    
+    
+}
+.categories_list_01, .categories_list_02{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding-top: 48px;
+    
+    
+}
+.categories_name{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #fff;
+    padding: 10px 20px 10px 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    cursor: pointer;
+}
+
+.categories_name:hover{
+    border: 2px solid #FF42A5;
+}
+.categories_name:hover p{
+    color: #FF42A5;
+}
+
+
+.categories_name img{
+
+}
+
+.categories_name p{
+    color: #0B0223; 
+    font-size: 20px;
+    font-weight: 600;
+    
+}
 /* ==================================
-            Navbar part end
+        Games categories part end
 ====================================== */
+
+
+
 /* ==================================
             Navbar part start
 ====================================== */
