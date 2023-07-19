@@ -287,6 +287,63 @@ ol {
 
 }
 
+.onlinegames_items {
+    position: relative;
+    cursor: pointer;
+}
+
+.onlinegames_items:hover .overly {
+    opacity: 1;
+}
+
+.onlinegames_items:hover .icon i {
+    opacity: 1;
+}
+
+.onlinegames_items:hover .icon p {
+    opacity: 1;
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.onlinegames_img .overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82.5%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    opacity: 0;
+    transition: .4s;
+
+}
+
+
+.icon i {
+    color: #f1f1f1;
+    font-size: 48px;
+
+    position: absolute;
+    top: 32%;
+    left: 43%;
+    opacity: 0;
+    transition: .4s;
+}
+
+.icon p {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    opacity: 0;
+    transition: .4s;
+}
+
 .onlinegames_img p {
     color: #534C64;
     font-size: 20px;
@@ -387,7 +444,7 @@ ol {
     align-items: center;
     gap: 16px;
     background: #fff;
-    padding: 10px 20px 10px 10px;
+    padding: 10px 15px 10px 10px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -399,6 +456,7 @@ ol {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .categories_name:hover {
