@@ -125,10 +125,8 @@
        
         flex-direction: column;
     }
-    .onlinegames_img .overly {
-       
-        /* height: 100%; */
-        
+    .test .overly {
+        height: 99.5%;
     }
     .onlinegames_items {
         position: relative;
