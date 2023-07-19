@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------Small devices------------ */
 
 
@@ -29,16 +15,91 @@
 
     #navbar .nav_container .nav_items {
         margin: 0 auto;
-        padding-top: 60px;
+        padding-top: 40px;
         width: 100%;
     }
 
     .nav_container .nav_items ul {
         flex-direction: column;
-        gap: 35px;
+        gap: 25px;
     }
 
     .nav_container .nav_items .follow_us ul {
         flex-direction: row;
     }
+
+    /* ========================================
+                Banner part start
+    =========================================== */
+    .banner_container {
+        flex-direction: column;
+        margin: 60px auto;
+    }
+
+    .banner_container .banner_text {
+        width: 100%;
+        order: 2;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .banner_container .banner_img {
+        width: 100%;
+        order: 1;
+    }
+
+    .banner_text p {
+        font-size: 24px;
+
+    }
+
+    .banner_text h1 {
+        font-size: 47px;
+    }
+
+    .banner_text ul {
+        padding: 6px 0 20px;
+    }
+
+    .banner_text ul li {
+
+        font-size: 13px;
+        padding: 7px 0 0;
+    }
+    .signin_button {
+        font-size: 15px;
+        padding: 15px 15px;
+        margin-right: 15px;
+    }
+
+    .go_button {
+        font-size: 15px;
+        padding: 15px 15px;
+    }
+    /* ========================================
+                Banner part end
+    =========================================== */
+
+
+
+
+    /* ========================================
+                Banner part start
+    =========================================== */
+    /* ========================================
+                Banner part end
+    =========================================== */
+    /* ========================================
+                Banner part start
+    =========================================== */
+    /* ========================================
+                Banner part end
+    =========================================== */
+    /* ========================================
+                Banner part start
+    =========================================== */
+    /* ========================================
+                Banner part end
+    =========================================== */
+
 }
