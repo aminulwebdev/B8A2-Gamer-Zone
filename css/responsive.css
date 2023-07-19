@@ -16,11 +16,11 @@
     
     }
     
-    body {
+    /* main {
     
-        padding: 15px;
+        padding: 0 35px;
     
-    }
+    } */
 
 /*=======================================
              Common Css part
@@ -56,7 +56,7 @@
     =========================================== */
     .banner_container {
         flex-direction: column;
-        margin: 60px auto;
+        margin: 60px 35px;
     }
 
     .banner_container .banner_text {
@@ -113,6 +113,14 @@
                 Online games part start 
     =========================================== */
 
+    .onlinegames_container {
+        margin: 60px 35px;
+    }
+
+    .onlinegames_heading p {
+        padding: 16px 0 28px;
+    }
+
     .onlinegames_img {
        
         flex-direction: column;
@@ -141,10 +149,9 @@
     =========================================== */
 
     .playgames_container {
-        
         flex-direction: column;
+        margin: 0 35px;
     }
-
 
     .playgames_container .playgames_img {   
         order: 2;
@@ -191,11 +198,12 @@
         width: 100%;
     }
 
+ 
+
     .playgames_text p {
         width: 100%;
+        padding: 30px;
     }
-
-
    
     /* ========================================
                 Play games part end
@@ -221,10 +229,11 @@
         margin-top: 120px;
         
     }
+   
 
     .games_categories {
         background: #fff9fc;
-        /* margin-top: 230px; */
+        margin-top: 200px;
         padding: 0px;
     }
     .categories_name img {
@@ -244,6 +253,8 @@
         padding: 30px 0;
        
     }
+
+    
     /* ========================================
                 Games categories part end
     =========================================== */
@@ -289,28 +300,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------Small devices------------ */
 
 
@@ -331,11 +320,11 @@
     
     }
     
-    body {
+    /* main {
     
-        padding: 15px;
+     padding:0 35px;
     
-    }
+    } */
 
 /*=======================================
              Common Css part
@@ -371,7 +360,7 @@
     =========================================== */
     .banner_container {
         flex-direction: column;
-        margin: 60px auto;
+        margin: 60px 35px;
     }
 
     .banner_container .banner_text {
@@ -428,13 +417,24 @@
                 Online games part start 
     =========================================== */
 
+ 
+    .onlinegames_container {
+       
+        margin: 60px 35px;
+        
+    }
+
+    .onlinegames_heading p {
+        padding: 15px 0 22px;
+    }
+
     .onlinegames_img {
        
         flex-direction: column;
     }
     .onlinegames_img .overly {
        
-        height: 99%;
+        height: 99.2%;
         
     }
     .onlinegames_items {
@@ -456,7 +456,7 @@
     =========================================== */
 
     .playgames_container {
-        
+        margin: 0 35px;
         flex-direction: column;
     }
 
@@ -469,14 +469,7 @@
         width: 100%;
     }
 
-    /* .playgames_img_2 {
-        position: absolute;
-        top: 62%;
-     
-        width: 100%;
-        left: 279px;
-    } */
-
+  
     .playgames_img_2 {
         position: absolute;
         top: 70%;
@@ -508,6 +501,8 @@
 
     .playgames_text p {
         width: 100%;
+        line-height: 20px;
+        padding-bottom: 15px;
     }
 
 
@@ -522,7 +517,9 @@
     /* ========================================
                 Games categories part start
     =========================================== */
-
+    .gamer_part {
+        padding: 60px 35px;
+    }
     .categories_name {
        
         align-items: center;

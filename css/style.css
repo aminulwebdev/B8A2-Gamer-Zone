@@ -307,15 +307,28 @@ ol {
     opacity: 1;
 }
 
-.test:hover .icon i {
+/* .test:hover .icon  {
     opacity: 1;
-}
+    color: #f1f1f1;
+    font-size: 48px;
+} */
 
+.test:hover .icon  {
+    opacity: 1;
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #f1f1f1;
+    font-size: 48px;
+}
 .test:hover .icon p {
     opacity: 1;
     color: #FF42A5;
     font-size: 20px;
     font-weight: 600;
+
+    
 }
 
 .test .overly {
@@ -323,7 +336,7 @@ ol {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 99.5%;
+    height: 99.2%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -336,7 +349,24 @@ ol {
 }
 
 
-.icon i {
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+
+/* .icon i {
     color: #f1f1f1;
     font-size: 48px;
 
@@ -353,7 +383,7 @@ ol {
     left: 34%;
     opacity: 0;
     transition: .4s;
-}
+} */
 
 .onlinegames_img p {
     color: #534C64;
