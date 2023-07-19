@@ -35,6 +35,30 @@ ol {
     background: #ff42a5;
 }
 
+.title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+
+    font-weight: 700;
+
+}
+
+.basic {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
 /* ==================================
             Common part start
@@ -46,7 +70,7 @@ ol {
 
 #navbar {
     background: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 #navbar .nav_container {
@@ -117,7 +141,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 15px 20px;
-    
+
 }
 
 /* ==================================
@@ -160,13 +184,14 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-}
-
-.banner_text ul{
-padding: 12px 0 40px;
 
 }
+
+.banner_text ul {
+    padding: 12px 0 40px;
+
+}
+
 .banner_text ul li {
     color: #534C64;
 
@@ -183,7 +208,7 @@ padding: 12px 0 40px;
 
 .banner_container .banner_img {
     width: 50%;
-   
+
 }
 
 .banner_img img {
@@ -192,7 +217,7 @@ padding: 12px 0 40px;
     vertical-align: middle;
 }
 
-.signin_button{
+.signin_button {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
@@ -209,7 +234,7 @@ padding: 12px 0 40px;
     -o-transition: all linear .3s;
 }
 
-.go_button{
+.go_button {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
@@ -225,9 +250,11 @@ padding: 12px 0 40px;
     -o-transition: all linear .3s;
 }
 
-.signin_button:hover, .go_button:hover{
+.signin_button:hover,
+.go_button:hover {
     background: #4ec5f7;
 }
+
 /* ==================================
             Banner part end
 ====================================== */
@@ -235,11 +262,44 @@ padding: 12px 0 40px;
 
 
 /* ==================================
-            Navbar part start
+            Online games part start
 ====================================== */
+
+.onlinegames_container {
+    max-width: 1440px;
+    margin: 120px auto;
+    text-align: center;
+    
+}
+
+.onlinegames_heading p{
+    padding: 15px 0 48px;
+}
+
+
+.onlinegames_img{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 24px;
+  
+}
+
+.onlinegames_img p{
+    color: #534C64;
+font-size: 20px;
+text-align: start;
+font-weight: 500;
+line-height: 30px;
+padding-top: 20px;
+}
+
 /* ==================================
-            Navbar part end
+            Online games part end
 ====================================== */
+
+
+
+
 /* ==================================
             Navbar part start
 ====================================== */
