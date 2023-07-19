@@ -281,38 +281,48 @@ ol {
 
 
 .onlinegames_img {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 25px;
 }
 
+
 .onlinegames_items {
-    position: relative;
+    /* position: relative; */
     cursor: pointer;
+   width: 24%;
+   /* height: 400px; */
+}
+
+.test{
+    position: relative;
+}
+
+.test img{
+    width: 100%;
 }
 
 .onlinegames_items:hover .overly {
     opacity: 1;
 }
 
-.onlinegames_items:hover .icon i {
+.test:hover .icon i {
     opacity: 1;
 }
 
-.onlinegames_items:hover .icon p {
+.test:hover .icon p {
     opacity: 1;
     color: #FF42A5;
     font-size: 20px;
     font-weight: 600;
 }
 
-.onlinegames_img .overly {
+ .test .overly {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
-    height: 82.5%;
+    height: 99%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -374,7 +384,7 @@ ol {
 }
 
 .playgames_img img {
-    /* width: 100%; */
+  
     vertical-align: middle;
 }
 
