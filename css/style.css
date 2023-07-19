@@ -269,43 +269,86 @@ ol {
     max-width: 1440px;
     margin: 120px auto;
     text-align: center;
-    
+
 }
 
-.onlinegames_heading p{
+.onlinegames_heading p {
     padding: 15px 0 48px;
 }
 
 
-.onlinegames_img{
+.onlinegames_img {
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-  
+
 }
 
-.onlinegames_img p{
+.onlinegames_img p {
     color: #534C64;
-font-size: 20px;
-text-align: start;
-font-weight: 500;
-line-height: 30px;
-padding-top: 20px;
+    font-size: 20px;
+    text-align: start;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 20px;
 }
 
 /* ==================================
             Online games part end
 ====================================== */
 
+/* ==================================
+            Play games part start
+====================================== */
+
+.playgames_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
 
 
+.playgames_container .playgames_img {
+    width: 65%;
+    position: relative;
+}
+
+.playgames_img img{
+    /* width: 100%; */
+    vertical-align: middle;
+}
+
+.playgames_img_2{
+    position: absolute;
+ top: 62%;
+    right: 8%;
+}
+
+.playgames_text {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.playgames_text h3{
+    width: 426px;
+}
+.playgames_text p{
+    width: 483px;
+
+}
 
 /* ==================================
-            Navbar part start
+            Play games part end
 ====================================== */
-/* ==================================
-            Navbar part end
-====================================== */
+
+
+
+
+
 /* ==================================
             Navbar part start
 ====================================== */
