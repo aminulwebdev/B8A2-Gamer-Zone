@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------Small devices------------ */
+
+
+@media (max-width:575px) {
+
+    #navbar .nav_container {
+        flex-direction: column;
+    }
+
+    #navbar .nav_container .logo {
+        justify-content: center;
+        margin: 0 auto;
+        width: 100;
+    }
+
+    #navbar .nav_container .nav_items {
+        margin: 0 auto;
+        padding-top: 60px;
+        width: 100%;
+    }
+
+    .nav_container .nav_items ul {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .nav_container .nav_items .follow_us ul {
+        flex-direction: row;
+    }
+}

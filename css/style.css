@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* img{
+    width: 100%;
+    max-width: 100%;
+} */
+
+
+/* ==================================
+            Common part start
+====================================== */
+
+/* ==================================
+            Navbar part start
+====================================== */
+
+#navbar {
+    background-color: rgb(14, 168, 214);
+}
+
+#navbar .nav_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding: 35px;
+    min-height: 50px;
+}
+
+
+#navbar .nav_container .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 50%;
+
+
+}
+
+#navbar .nav_container .logo img {
+    width: 86px;
+}
+
+#navbar .nav_container .logo p {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#navbar .nav_container .logo p span {
+    color: #FF42A5;
+}
+
+#navbar .nav_container .nav_items {
+    width: 50%;
+
+
+}
+
+
+.nav_container .nav_items ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+    justify-content: flex-end;
+}
+
+.nav_container .nav_items ul li a {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav_container .nav_items .follow_us ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 20px;
+}
+
+/* ==================================
+            Navbar part end
+====================================== */
+
+
+
+
+
+/* ==================================
+            Banner part start
+====================================== */
+
+
+
+
+
+/* ==================================
+            Banner part end
+====================================== */
+
+
+/* ==================================
+            Navbar part start
+====================================== */
+/* ==================================
+            Navbar part end
+====================================== */
+/* ==================================
+            Navbar part start
+====================================== */
+/* ==================================
+            Navbar part end
+====================================== */
+/* ==================================
+            Navbar part start
+====================================== */
+/* ==================================
+            Navbar part end
+====================================== */
+/* ==================================
+            Navbar part start
+====================================== */
+/* ==================================
+            Navbar part end
+====================================== */
