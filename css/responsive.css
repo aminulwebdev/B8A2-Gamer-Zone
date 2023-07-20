@@ -63,12 +63,12 @@
         order: 1;
     }
 
-    .banner_text p {
-        font-size: 24px;
+    .banner_text h1 {
+        font-size: 50px;
     }
 
-    .banner_text h1 {
-        font-size: 47px;
+    .banner_text p {
+        font-size: 28px;
     }
 
     .banner_text ul {
@@ -334,14 +334,15 @@
         order: 1;
     }
 
-    .banner_text p {
-        font-size: 24px;
-
-    }
-
     .banner_text h1 {
-        font-size: 47px;
+        font-size: 50px;
     }
+
+    .banner_text p {
+        font-size: 28px;
+
+    }
+
 
     .banner_text ul {
         padding: 6px 0 20px;
@@ -614,12 +615,12 @@
         order: 1;
     }
 
-    .banner_text p {
-        font-size: 24px;
-    }
-
     .banner_text h1 {
         font-size: 47px;
+    }
+
+    .banner_text p {
+        font-size: 24px;
     }
 
     .banner_text ul {
