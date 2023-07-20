@@ -19,12 +19,6 @@ ol {
     list-style: none;
 }
 
-/* img{
-    width: 100%;
-    max-width: 100%;
-} */
-
-
 .common_button {
     color: #FFF;
     font-size: 20px;
@@ -34,8 +28,6 @@ ol {
     border-radius: 48px;
     background: #ff42a5;
 }
-
-
 
 .title {
 	color: #0B0223;
@@ -49,11 +41,8 @@ ol {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 44px;
-
     font-weight: 700;
-
 }
-
 
 .basic {
     color: #534C64;
@@ -78,18 +67,15 @@ ol {
     max-width: 1320px;
     margin: 0 auto;
     display: flex;
-    padding: 35px;
+    padding: 35px 0;
     min-height: 50px;
 }
-
 
 #navbar .nav_container .logo {
     display: flex;
     align-items: center;
     gap: 15px;
     width: 50%;
-
-
 }
 
 #navbar .nav_container .logo img {
@@ -103,7 +89,6 @@ ol {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
 #navbar .nav_container .logo p span {
@@ -115,10 +100,7 @@ ol {
 
 #navbar .nav_container .nav_items {
     width: 50%;
-
-
 }
-
 
 .nav_container .nav_items ul {
     display: flex;
@@ -145,29 +127,26 @@ ol {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 15px 20px;
-
 }
 
 /* ==================================
             Navbar part end
 ====================================== */
 
-
-
-
-
 /* ==================================
             Banner part start
 ====================================== */
+/* .banner{
+   background: url(./images/banner_img.png);
+} */
 
 
 .banner_container {
     max-width: 1320px;
-    margin: 20px auto;
+    margin: 0 auto;
     display: flex;
     
 }
-
 .banner_container .banner_text {
     width: 50%;
     display: flex;
@@ -177,10 +156,8 @@ ol {
 
 .banner_text p {
     color: #0B0223;
-    /* text-align: center; */
     font-size: 48px;
     font-weight: 600;
-
 }
 
 .banner_text h1 {
@@ -190,7 +167,6 @@ ol {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .banner_text ul {
@@ -200,11 +176,9 @@ ol {
 
 .banner_text ul li {
     color: #534C64;
-
     font-size: 20px;
     font-weight: 500;
     padding: 15px 0 0;
-
 }
 
 .banner_text ul li span {
@@ -266,7 +240,6 @@ ol {
 ====================================== */
 
 
-
 /* ==================================
             Online games part start
 ====================================== */
@@ -275,26 +248,21 @@ ol {
     max-width: 1320px;
     margin: 120px auto;
     text-align: center;
-
 }
 
 .onlinegames_heading p {
     padding: 15px 0 48px;
 }
 
-
 .onlinegames_img {
     display: flex;
-    /* justify-content: space-between; */
     gap: 25px;
 }
 
 
 .onlinegames_items {
-    /* position: relative; */
     cursor: pointer;
     width: 24%;
-    /* height: 400px; */
 }
 
 .test {
@@ -310,28 +278,20 @@ ol {
     opacity: 1;
 }
 
-/* .test:hover .icon  {
-    opacity: 1;
-    color: #f1f1f1;
-    font-size: 48px;
-} */
-
 .test:hover .icon  {
     opacity: 1;
     color: #FF42A5;
     font-size: 20px;
     font-weight: 600;
-
     color: #f1f1f1;
     font-size: 48px;
 }
+
 .test:hover .icon p {
     opacity: 1;
     color: #FF42A5;
     font-size: 20px;
     font-weight: 600;
-
-    
 }
 
 .test .overly {
@@ -351,7 +311,6 @@ ol {
     -o-border-radius: 16px;
 }
 
-
 .icon{
     position: absolute;
     top: 50%;
@@ -368,25 +327,6 @@ ol {
     -ms-transition: all linear .2s;
     -o-transition: all linear .2s;
 }
-
-/* .icon i {
-    color: #f1f1f1;
-    font-size: 48px;
-
-    position: absolute;
-    top: 32%;
-    left: 43%;
-    opacity: 0;
-    transition: .4s;
-}
-
-.icon p {
-    position: absolute;
-    top: 40%;
-    left: 34%;
-    opacity: 0;
-    transition: .4s;
-} */
 
 .onlinegames_img p {
     color: #534C64;
@@ -412,27 +352,15 @@ ol {
     justify-content: space-between;
 }
 
-
 .playgames_container .playgames_img {
-    /* width: 100%; */
     position: relative;
 }
 
 .playgames_img .test_img{
     width: 100%;
-}
-
-.playgames_img img {
-
     vertical-align: middle;
 }
 
-/* .playgames_img_2 {
-    position: absolute;
-    top: 62%;
-    right: 8%;
-    width: 100%;
-} */
 
 .playgames_img_2 {
     position: absolute;
@@ -440,9 +368,6 @@ ol {
     right: -538px;
     width: 100%;
 }
-
-
-
 
 .playgames_text {
 	width: 33%;
@@ -456,43 +381,27 @@ ol {
 	width: 442px;
 }
 
-
-
 .playgames_text p {
 	width: 414px;
 }
-
-
 
 /* ==================================
             Play games part end
 ====================================== */
 
-
-
-
-
 /* ==================================
         Games categories part start
 ====================================== */
-
-
-
-.categories_container {
-    max-width: 1320px;
-    margin: 0 auto;
-  
-
-
-}
-.categories_name img {
-    width: 53px;
-}
 
 .games_categories {
     background: #fff9fc;
     margin-top: 230px;
     padding: 130px 0;
+}
+
+.categories_container {
+    max-width: 1320px;
+    margin: 0 auto;
 }
 
 .categories_list_01
@@ -502,7 +411,10 @@ ol {
     justify-content: center;
     padding: 48px 0;
     flex-wrap: wrap;
+}
 
+.categories_name img {
+    width: 53px;
 }
 
 .categories_name {
@@ -523,7 +435,6 @@ ol {
     -o-transition: all linear .3s;
     cursor: pointer;
     border: 2px solid transparent;
-   
 }
 
 .categories_name:hover {
@@ -534,25 +445,15 @@ ol {
     color: #FF42A5;
 }
 
-
-.categories_name img {}
-
-.categories_name p {
-    color: #0B0223;
-    font-size: 20px;
-    font-weight: 600;
-
-}
-
 .categories_name p {
     color: #0B0223;
     font-size: 18px;
     font-weight: 600;
 }
+
 /* ==================================
         Games categories part end
 ====================================== */
-
 
 
 /* ==================================
@@ -566,7 +467,6 @@ ol {
 .gamer_container {
     max-width: 1320px;
     margin: 0 auto;
-
 }
 
 .gamer_container .footer_logo {
@@ -581,7 +481,6 @@ ol {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
-
 }
 
 .gamer_container .footer_logo p span {
@@ -589,26 +488,6 @@ ol {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-
-/* .gamer_container .our_story ul {
-    display: flex;
-    gap: 60px;
-    justify-content: center;
-    padding: 65px 0;
-} */
-
-.gamer_container .our_story ul li a {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 600;
-
-}
-.story_items ul {
-    display: flex;
-    gap: 60px;
-    justify-content: center;
 }
 
 .our_story{
@@ -619,8 +498,23 @@ ol {
     padding: 50px 0;
 }
 
+.story_items ul {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
 
+.gamer_container .our_story ul li a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
 
+.social_icon{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
 
  .social_items ul {
     display: flex;
@@ -628,24 +522,10 @@ ol {
     justify-content: center;
 }
 
-
-.social_icon{
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    /* flex-wrap: wrap; */
-}
-
 .gamer_container .social_icon ul li a {
     color: #fff;
     font-size: 40px;
 }
-
-
-
-
-
-
 
 .terms{
     display: flex;
@@ -661,13 +541,6 @@ ol {
     justify-content: center;
 }
 
-/* .gamer_container .terms ul {
-    display: flex;
-    gap: 60px;
-    justify-content: center;
-    padding: 65px 0 30px;
-} */
-
 .gamer_container .terms ul li a {
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
@@ -682,7 +555,6 @@ ol {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-
 }
 
 
