@@ -1,7 +1,344 @@
 
-/* ----------------------Medium Devices------------ */
 
-@media (min-width:576px) and (max-width: 991px) {
+/* --------------------Medium Devices--------------- */
+
+
+@media (min-width:768px) and (max-width: 991px) {
+    
+    .title {
+        font-size: 35px;
+    }
+    
+    .title span {
+        font-size: 35px;
+    }
+    
+    .basic {
+        font-size: 12px;
+    
+    }
+    
+
+
+/*=======================================
+             Common Css part
+    ===================================== */
+
+    #navbar .nav_container {
+        flex-direction: column;
+    }
+
+    #navbar .nav_container .logo {
+        justify-content: center;
+        margin: 0 auto;
+        width: 100;
+    }
+
+    #navbar .nav_container .nav_items {
+        margin: 0 auto;
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    .nav_container .nav_items ul {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .nav_container .nav_items .follow_us ul {
+        flex-direction: row;
+    }
+
+    /* ========================================
+                Banner part start
+    =========================================== */
+    .banner_container {
+        flex-direction: column;
+        margin: 60px 35px;
+    }
+
+    .banner_container .banner_text {
+        width: 100%;
+        order: 2;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .banner_container .banner_img {
+        width: 100%;
+        order: 1;
+    }
+
+    .banner_text p {
+        font-size: 24px;
+
+    }
+
+    .banner_text h1 {
+        font-size: 47px;
+    }
+
+    .banner_text ul {
+        padding: 6px 0 20px;
+    }
+
+    .banner_text ul li {
+
+        font-size: 13px;
+        padding: 7px 0 0;
+    }
+
+    .signin_button {
+        font-size: 15px;
+        padding: 15px 15px;
+        margin-right: 15px;
+    }
+
+    .go_button {
+        font-size: 15px;
+        padding: 15px 15px;
+    }
+ 
+    /* ========================================
+                Banner part end
+    =========================================== */
+
+
+
+
+    /* ========================================
+                Online games part start 
+    =========================================== */
+
+    .onlinegames_container {
+        margin: 60px 35px;
+    }
+
+    .onlinegames_heading p {
+        padding: 16px 0 28px;
+    }
+
+    .onlinegames_img {
+       
+        flex-direction: column;
+    }
+    .test .overly {
+        height: 99.5%;
+    }
+    .onlinegames_items {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        /* height: 400px; */
+    }
+
+
+    
+    /* ========================================
+                Online games part end
+    =========================================== */
+
+
+    /* ========================================
+                Play games part start
+    =========================================== */
+
+    .playgames_container {
+        flex-direction: column;
+        margin: 0 35px;
+    }
+
+    .playgames_container .playgames_img {   
+        order: 2;
+    }
+
+    .playgames_img .test_img {
+        width: 100%;
+    }
+
+    /* .playgames_img_2 {
+        position: absolute;
+        top: 62%;
+       
+        width: 100%;
+        left: 279px;
+    } */
+
+    .playgames_img_2 {
+        position: absolute;
+        top: 70%;
+        /* right: 1; */
+        width: 100%;
+        left: 174px;
+    }
+
+    .playgames_img_2 img{
+        width: 40%;
+    }
+
+
+    .playgames_text {
+
+        order: 1;
+    }
+
+    .playgames_text {
+        width: 100%;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .playgames_text h3{
+        font-size: 32px;
+        width: 100%;
+    }
+
+ 
+
+    .playgames_text p {
+        width: 100%;
+        padding: 30px;
+    }
+   
+    .playgames_img_2 {
+        position: absolute;
+        top: 64%;
+        /* right: 1; */
+        width: 100%;
+        left: 0px;
+        justify-content: end;
+        text-align: end;
+    }
+
+    .playgames_container .playgames_img {
+        order: 2;
+        width: 100%;
+    }
+
+    .playgames_img .test_img {
+        width: 79%;
+    }
+
+    /* ========================================
+                Play games part end
+    =========================================== */
+
+
+
+
+    /* ========================================
+                Games categories part start
+    =========================================== */
+
+    .categories_name {
+       
+        align-items: center;
+        gap: 10px;
+        background: #ffffff;
+        padding: 4px 7px 4px 4px;
+    }
+
+    
+
+    .games_categories {
+        background: #fff9fc;
+        margin-top: 200px;
+        padding: 0px 35px;
+    }
+
+
+
+    .categories_list_01 {
+    
+        gap: 35px;
+        
+        width: 74%;
+        margin: 0 auto;
+    }
+
+    .categories_name {
+       
+        gap: 10px;
+        
+        padding: 4px 5px 4px 4px;
+    }
+
+    .categories_name img {
+        width: 33px;
+    }
+
+    .categories_name p {
+
+        font-size: 11px;
+        
+    }
+
+
+    /* .categories_name img {
+        width: 35px;
+    }
+
+    .categories_name p {
+       
+        font-size: 8px;
+        
+    }
+
+    .categories_list_01 {
+      
+        gap: 20px;
+        
+        padding: 30px 0;
+       
+    } */
+
+    
+    /* ========================================
+                Games categories part end
+    =========================================== */
+
+
+
+
+    /* ========================================
+                Footer part start
+    =========================================== */
+    .gamer_part {
+        padding: 40px 35px;
+    }
+
+
+    .our_story {
+       
+        gap: 20px;
+       
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .terms {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    /* ========================================
+                Footer part end
+    =========================================== */
+
+
+
+
+
+}
+
+/* ----------------------Small Devices------------ */
+
+@media (min-width:576px) and (max-width: 767px) {
     
     .title {
         font-size: 35px;
@@ -203,6 +540,25 @@
         padding: 30px;
     }
    
+    .playgames_img_2 {
+        position: absolute;
+        top: 64%;
+        /* right: 1; */
+        width: 100%;
+        left: 0px;
+        justify-content: end;
+        text-align: end;
+    }
+
+    .playgames_container .playgames_img {
+        order: 2;
+        width: 100%;
+    }
+
+    .playgames_img .test_img {
+        width: 79%;
+    }
+
     /* ========================================
                 Play games part end
     =========================================== */
@@ -222,19 +578,34 @@
         padding: 4px 7px 4px 4px;
     }
 
-    .games_categories {
-        background: #fff9fc;
-        margin-top: 120px;
-        
-    }
-   
+    
 
     .games_categories {
         background: #fff9fc;
         margin-top: 200px;
-        padding: 0px;
+        padding: 0px 35px;
     }
+
+
+    .categories_list_01 {
+       
+        width: 96%;
+        margin: 0 auto;
+    }
+
+
+    .categories_name {
+        align-items: center;
+        gap: 5px;
+        background: #ffffff;
+        padding: 4px 7px 4px 4px;
+    }
+
     .categories_name img {
+        width: 30px;
+    }
+
+    /* .categories_name img {
         width: 35px;
     }
 
@@ -250,7 +621,7 @@
         
         padding: 30px 0;
        
-    }
+    } */
 
     
     /* ========================================
@@ -263,29 +634,27 @@
     /* ========================================
                 Footer part start
     =========================================== */
-
-    .gamer_container .our_story ul {
-       
-       
-       
-        padding: 75px 0;
-        flex-wrap: wrap;
-    }
-
-    .gamer_container .social_icon ul {
-        
-        gap: 40px;
-       
-        flex-wrap: wrap;
+    .gamer_part {
+        padding: 40px 35px;
     }
 
 
-    .gamer_container .terms ul {
-     
-        gap: 60px;
-   
-        padding: 65px 0 30px;
+    .our_story {
+       
+        gap: 20px;
+       
         flex-wrap: wrap;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .terms {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 65%;
+        margin: 0 auto;
     }
 
     /* ========================================
@@ -463,24 +832,40 @@
         order: 2;
     }
 
-    .playgames_img .test_img {
+    /* .playgames_img .test_img {
         width: 100%;
+    } */
+
+    .playgames_img .test_img {
+        width: 80%;
     }
 
   
-    .playgames_img_2 {
+    /* .playgames_img_2 {
         position: absolute;
         top: 70%;
-        /* right: 1; */
+        
         width: 100%;
         left: 139px;
+    }  */
+
+    .playgames_img_2 {
+        position: absolute;
+        top: 65%;
+        /* right: 1; */
+        /* width: 100%; */
+        left: 0px;
+        /* width: fit-content; */
+        text-align: end;
     }
 
-    .playgames_img_2 img{
+    /* .playgames_img_2 img{
         width: 40%;
+    } */
+
+    .playgames_img_2 img {
+        width: 36%;
     }
-
-
     .playgames_text {
 
         order: 1;
@@ -503,6 +888,25 @@
         padding-bottom: 15px;
     }
 
+    /* .playgames_img_2 {
+        position: absolute;
+        top: 65%;
+       
+     
+        left: 29px;
+       
+        text-align: end;
+    } */
+    
+    .playgames_container .playgames_img {
+        order: 2;
+        width: 100%;
+    }
+    
+    .playgames_img .test_img {
+        width: 88%;
+    }
+    
 
    
     /* ========================================
@@ -515,9 +919,15 @@
     /* ========================================
                 Games categories part start
     =========================================== */
-    .gamer_part {
-        padding: 60px 35px;
+
+
+    .games_categories {
+        background: #fff9fc;
+        margin-top: 120px;
+        padding: 0px 20px;
     }
+
+   
     .categories_name {
        
         align-items: center;
@@ -526,18 +936,24 @@
         padding: 4px 7px 4px 4px;
     }
 
-    .games_categories {
-        background: #fff9fc;
-        margin-top: 120px;
+
+    .categories_list_01 {
         
+        gap: 25px;
+        justify-content: flex-start;
+        width: 56%;
+        margin: 0 auto;
     }
 
-    .games_categories {
+
+
+
+    /* .games_categories {
         background: #fff9fc;
-        /* margin-top: 230px; */
+       
         padding: 0px;
-    }
-    .categories_name img {
+    } */
+    /* .categories_name img {
         width: 35px;
     }
 
@@ -553,7 +969,7 @@
         
         padding: 30px 0;
        
-    }
+    } */
     /* ========================================
                 Games categories part end
     =========================================== */
@@ -565,30 +981,70 @@
                 Footer part start
     =========================================== */
 
-    .gamer_container .our_story ul {
-       
-       
-       
-        padding: 75px 0;
-        flex-wrap: wrap;
-    }
 
-    .gamer_container .social_icon ul {
-        
-        gap: 40px;
-       
-        flex-wrap: wrap;
+ 
+    .gamer_part {
+        padding: 40px 35px;
     }
 
 
-    .gamer_container .terms ul {
-     
-        gap: 60px;
+
+
+
+
+    .social_icon {
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 69%;
+        margin: 0 auto;
+    }
+
+    
+    .gamer_container .social_icon ul li a {
+        font-size: 30px;
+    }
+
+
+    .terms {
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 96%;
+        text-align: center;
+    }
+
+       .our_story {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+
+    .terms_items ul {
+        gap: 50px;
+    }
+
+    .story_items ul {
+        gap: 27px;
+    }
+
+
+    .gamer_container .terms ul li a {
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    
+    .gamer_container .our_story ul li a {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 600;
+    }
+  
    
-        padding: 65px 0 30px;
-        flex-wrap: wrap;
+    .copyright { 
+        font-size: 11px;
+        
     }
-
     /* ========================================
                 Footer part end
     =========================================== */
